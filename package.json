@@ -14,13 +14,17 @@
 		"library",
 		"typescript"
 	],
-	"homepage": "https://johng.io/p/tally-ts",
-	"bugs": "https://github.com/jerboa88/tally-ts/issues",
 	"license": "MIT",
 	"author": {
 		"name": "John Goodliff",
 		"url": "https://johng.io"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jerboa88/tally-ts.git"
+	},
+	"homepage": "https://johng.io/p/tally-ts",
+	"bugs": "https://github.com/jerboa88/tally-ts/issues",
 	"funding": [
 		{
 			"type": "individual",
@@ -39,23 +43,37 @@
 			"url": "https://publishers.basicattentiontoken.org/en/c/johng"
 		}
 	],
-	"module": "src/index.ts",
 	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jerboa88/tally-ts.git"
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		},
+		"./legacy": {
+			"types": "./dist/legacy.d.ts",
+			"default": "./dist/legacy.js"
+		},
+		"./package.json": "./package.json"
 	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"prepare": "npm run build",
+		"prepack": "npm run build",
 		"typecheck": "tsc --noEmit",
 		"format:check": "prettier --check .",
 		"format:write": "prettier --write .",
-		"upgrade-interactive": "bunx ncu -i --format group"
+		"upgrade-interactive": "bun npm-check-updates -i --format group"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
-		"npm-check-updates": "^19.1.1",
+		"npm-check-updates": "^19.1.2",
 		"prettier": "3.6.2",
 		"typescript": "^5.9.3"
-	},
-	"private": true
+	}
 }
