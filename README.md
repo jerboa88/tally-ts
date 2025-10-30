@@ -43,7 +43,7 @@
 ## 📦 Installation
 
 > [!NOTE]
-> The library is not yet published to NPM, JSR, or Deno, but you can install it directly from the GitHub repository.
+> **tally-ts** is not yet published to NPM or JSR, but you can install it directly from the GitHub repository.
 
 Install the library using your preferred package manager:
 
@@ -68,21 +68,20 @@ bun add tally-ts
 deno add npm:tally-ts
 ``` -->
 
-
 ```bash
-npm install github:jerboa88/Tally#src/lib/tally-ts
+npm install github:jerboa88/tally-ts
 ```
 
 ```bash
-pnpm add github:jerboa88/Tally#src/lib/tally-ts
+pnpm add github:jerboa88/tally-ts
 ```
 
 ```bash
-yarn add github:jerboa88/Tally#src/lib/tally-ts
+yarn add github:jerboa88/tally-ts
 ```
 
 ```bash
-bun add github:jerboa88/Tally#src/lib/tally-ts
+bun add github:jerboa88/tally-ts
 ```
 
 ## 🕹️ Usage
@@ -295,17 +294,29 @@ Here is an overview of how we determine the counts for each token type:
 | **symbol**    | A non-letter, non-digit, non-space, non-newline character. This includes emojis, symbols, punctuation, and most whitespace. **Examples:** `,`, `%`, `#`, `😊`, `貓`, `\t`.                                                              |
 | **line**      | A literal newline character (`\n`).                                                                                                                                                                                                     |
 
+## 🤝 Contributing
+
+Contributions, issues, and forks are welcome.
+
 ## 🧾 License
 
-Copyright © 2025 [John Goodliff](https://johng.io).
+Copyright © 2025 [John Goodliff](https://johng.io/r/tally-ts).
 
 This project is licensed under the MIT license. See [LICENSE](LICENSE) for details.
 
 ## 🖇️ Related
 
-- **👤 [Tally]**: A free online tool to count the number of characters, words, paragraphs, and lines in your text.
-- **👤 [Tally Chrome Extension]**: A Chrome extension to easily count the number of words, characters, and paragraphs on any site
-- **🌐 [Alfaaz]**: An alternative multilingual word counting library with less features, but faster execution.
+### Recommended
+
+- **👤 [Tally Chrome Extension](https://github.com/jerboa88/Tally-Extension)**: A Chrome extension to easily count the number of words, characters, and paragraphs on any site
+
+### Used By
+
+- **👤 [Tally](https://github.com/jerboa88/Tally)**: A free online tool to count the number of characters, words, paragraphs, and lines in your text. **Tally** uses this library to compute counts
+
+### Alternatives
+
+- **🌐 [Alfaaz](https://github.com/thecodrr/alfaaz)**: An alternative multilingual word counting library with less features, but faster execution
 
 ## 💕 Funding
 
@@ -320,7 +331,3 @@ If you can't donate but still want to contribute, don't worry. There are many ot
 - ⭐ starring the project
 
 I appreciate the support!
-
-[Tally]: https://github.com/jerboa88/Tally-Extension
-[Tally Chrome Extension]: https://github.com/jerboa88/Tally-Extension
-[Alfaaz]: https://github.com/thecodrr/alfaaz
