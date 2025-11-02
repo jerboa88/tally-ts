@@ -21,10 +21,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jerboa88/tally-ts.git"
+		"url": "git+https://github.com/twocaretcat/tally-ts.git"
 	},
 	"homepage": "https://johng.io/p/tally-ts",
-	"bugs": "https://github.com/jerboa88/tally-ts/issues",
+	"bugs": "https://github.com/twocaretcat/tally-ts/issues",
 	"funding": [
 		{
 			"type": "individual",
@@ -32,11 +32,11 @@
 		},
 		{
 			"type": "GitHub Sponsors",
-			"url": "https://github.com/sponsors/jerboa88"
+			"url": "https://github.com/sponsors/twocaretcat"
 		},
 		{
 			"type": "Patreon",
-			"url": "https://patreon.com/jerboa88"
+			"url": "https://patreon.com/twocaretcat"
 		},
 		{
 			"type": "Brave Creators",

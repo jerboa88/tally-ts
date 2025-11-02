@@ -7,9 +7,9 @@
 	</h1>
 	<p class="projectBadges info">
 		<img src="https://johng.io/badges/category/Library.svg" alt="Project category" title="Project category">
-		<img src="https://img.shields.io/github/languages/top/jerboa88/tally-ts.svg" alt="Language" title="Language">
-		<img src="https://img.shields.io/github/repo-size/jerboa88/tally-ts.svg" alt="Repository size" title="Repository size">
-		<a href="LICENSE"><img src="https://img.shields.io/github/license/jerboa88/tally-ts.svg" alt="Project license" title="Project license"/></a>
+		<img src="https://img.shields.io/github/languages/top/twocaretcat/tally-ts.svg" alt="Language" title="Language">
+		<img src="https://img.shields.io/github/repo-size/twocaretcat/tally-ts.svg" alt="Repository size" title="Repository size">
+		<a href="LICENSE"><img src="https://img.shields.io/github/license/twocaretcat/tally-ts.svg" alt="Project license" title="Project license"/></a>
 	</p>
 	<p class="projectDesc">
 		A TypeScript word counting library. Count the number of characters, words, sentences, paragraphs, and lines in your text instantly with tally-ts
@@ -69,19 +69,19 @@ deno add npm:tally-ts
 ``` -->
 
 ```bash
-npm install github:jerboa88/tally-ts
+npm install github:twocaretcat/tally-ts
 ```
 
 ```bash
-pnpm add github:jerboa88/tally-ts
+pnpm add github:twocaretcat/tally-ts
 ```
 
 ```bash
-yarn add github:jerboa88/tally-ts
+yarn add github:twocaretcat/tally-ts
 ```
 
 ```bash
-bun add github:jerboa88/tally-ts
+bun add github:twocaretcat/tally-ts
 ```
 
 ## 🕹️ Usage
@@ -308,11 +308,11 @@ This project is licensed under the MIT license. See [LICENSE](LICENSE) for detai
 
 ### Recommended
 
-- **👤 [Tally Chrome Extension](https://github.com/jerboa88/Tally-Extension)**: A Chrome extension to easily count the number of words, characters, and paragraphs on any site
+- **👤 [Tally Chrome Extension](https://github.com/twocaretcat/Tally-Extension)**: A Chrome extension to easily count the number of words, characters, and paragraphs on any site
 
 ### Used By
 
-- **👤 [Tally](https://github.com/jerboa88/Tally)**: A free online tool to count the number of characters, words, paragraphs, and lines in your text. **Tally** uses this library to compute counts
+- **👤 [Tally](https://github.com/twocaretcat/Tally)**: A free online tool to count the number of characters, words, paragraphs, and lines in your text. **Tally** uses this library to compute counts
 
 ### Alternatives
 
